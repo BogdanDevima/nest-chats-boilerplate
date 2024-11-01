@@ -50,6 +50,9 @@ const envConfig = registerAs('env', () => ({
     secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY || '',
     cdnDomain: process.env.NEXT_PUBLIC_AWS_CDN_DOMAIN || '',
   },
+  google: {
+    applicationCredentials: process.env.GOOGLE_APPLICATION_CREDENTIALS || '',
+  },
 }));
 
 export default envConfig;

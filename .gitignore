@@ -35,3 +35,6 @@ lerna-debug.log*
 !.vscode/extensions.json
 
 .env
+
+# Google credenrials
+service-account-file.json

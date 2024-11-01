@@ -7,6 +7,7 @@ import envConfig from './config/env.config';
 import { AppController } from './features/app/app.controller';
 import { AppService } from './features/app/app.service';
 import { AuthModule, JwtAsyncModule, AuthService, JwtRefreshService } from './features/auth';
+import { FirebaseModule } from './features/firebase/firebase.module';
 import { MailingModule } from './features/mailing/mailing.module';
 import { ProgramsModule } from './features/programs/programs.module';
 import { UsersModule } from './features/users/users.module';
@@ -33,6 +34,7 @@ import { UsersModule } from './features/users/users.module';
     AuthModule,
     JwtAsyncModule,
     MailingModule,
+    FirebaseModule,
   ],
   controllers: [AppController],
   providers: [
