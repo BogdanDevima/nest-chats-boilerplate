@@ -77,6 +77,12 @@ $ yarn start:prod
 Swagger API is running on the `/docs` route of the application.
 Swagger will be enabled if you set `ENABLE_SWAGGER=true` env variable. 
 
+## Firebase
+
+Before process working with Firebase you need to [Create a Firebase project and register your app](https://firebase.google.com/docs/web/setup#create-firebase-project-and-app) if you haven't done it yet. You can skip this step if you already have the project with a registered app.
+
+To initialize the firebase SDK follow [these instructions](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments).
+
 ## Test
 
 ```bash
